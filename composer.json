@@ -1,0 +1,26 @@
+{
+    "name": "aungz/pos",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.23",
+        "slim/twig-view": "^3.3",
+        "slim/slim": "4.*",
+        "php-di/php-di": "^6.4",
+        "slim/http": "^1.2",
+        "slim/psr7": "^1.5",
+        "mpdf/mpdf": "^8.1",
+        "tecnickcom/tcpdf": "^6.4",
+        "stevenay/myanfont": "0.2.0",
+        "chillerlan/php-qrcode": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/app"
+        }
+    },
+    "authors": [
+        {
+            "name": "AungZawHtet",
+            "email": "aungzawhteth10@gmail.com"
+        }
+    ]
+}

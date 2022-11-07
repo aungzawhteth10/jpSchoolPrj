@@ -1,0 +1,1 @@
+php -S 192.168.0.196:8888 -t C:\Users\aungz\Desktop\workspace\git\POS-SakuraS9\src\public
