@@ -18,8 +18,12 @@ $app->get('/{id}', function (Slim\Http\ServerRequest $request, Slim\Http\Respons
         print('URLを見直してください！');
         return $response;
     }
+    $pageName = [
+        'HOME' => "ホーム",
+        'RS'   => "アールエス",
+    ];
     $view->offsetSet('HtmlHelper', new \App\api\HtmlHelper);
-    return $view->render($response, $pageId . '.twig', ['pageId' => $pageId]);
+    return $view->render($response, $pageId . '.twig', ['pageName' => $pageName[$pageId]]);
 });
 // function createPdf()
 // {
